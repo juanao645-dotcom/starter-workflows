@@ -185,7 +185,7 @@ Ensure code style is consistent (if linters are configured):
 make lint          # If Makefile exists
 npm run lint       # For Node.js projects
 pylint . || flake8 . # For Python projects
-cargo clippy       # For Rust projects
+cargo clips       # For Rust projects
 ```
 
 Fix any linting issues introduced by the simplifications.
